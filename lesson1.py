@@ -18,19 +18,7 @@ import numpy as np
 
 
 #Ex 2 camera show
-# cap = cv2.VideoCapture(0)
-
-# while True:
-#     ret, frame = cap.read()
-#     cv2.imshow("video", frame)
-#     if cv2.waitKey(1) & 0xFF == ord('q'):
-#         break
-
-# cap.release()
-# cv2.distroyAllWindows()
-
-#Ex 3 video show
-cap = cv2.VideoCapture('aksi.mp4')
+cap = cv2.VideoCapture(0)
 
 while True:
     ret, frame = cap.read()
@@ -40,3 +28,15 @@ while True:
 
 cap.release()
 cv2.distroyAllWindows()
+
+#Ex 3 video show
+# cap = cv2.VideoCapture('aksi.mp4')
+
+# while True:
+#     ret, frame = cap.read()
+#     cv2.imshow("video", frame)
+#     if cv2.waitKey(1) & 0xFF == ord('q'):
+#         break
+
+# cap.release()
+# cv2.distroyAllWindows()
